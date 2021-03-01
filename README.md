@@ -2,7 +2,7 @@
 
 # Project Name: Micronaut Bot
 
-![screenshot](logo.PNG)
+![screenshot](./logo.PNG)
 
 # Introduction
 
