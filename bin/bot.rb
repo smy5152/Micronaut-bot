@@ -1,5 +1,3 @@
-#! /usr/bin/env ruby
-
 require 'telegram/bot'
 require 'dotenv'
 Dotenv.load
@@ -17,8 +15,8 @@ Telegram::Bot::Client.run(ENV['TELEGRAM_TOKEN']) do |bot|
       bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name}!")
       bot.api.send_message(chat_id: message.chat.id, text: commands.help)
     else
-      bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name}!")
-      bot.api.send_message(chat_id: message.chat.id, text: "/help Can Really `Help` You Know...")
+      bot.api.send_message(chat_id: message.chat.id, text: "Excuse Me! #{message.from.first_name}!")
+      bot.api.send_message(chat_id: message.chat.id, text: "/help Can Really `Help` You...")
     end
   end
 end

@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 
 gem 'dotenv'
 
+gem 'open-uri'
+
 gem 'nokogiri', '~> 1.11', '>= 1.11.1'
 
 gem 'rspec', '~> 3.10'

@@ -6,6 +6,21 @@
 
 I have delayed building a BOT for fun from a while and finally got around getting this one done in a few hours of overnight coding. The commands are few, extendable to full functionality. I hope to add more contributors and further set of features once its live and available to access from an external server. ( I doubt I can leave my laptop running 24/7 lol :) )
 
+## DESCRIPTION & HOW TO START THE BOT
+
+### The Telegram-bot live link
+
+- Click the link and it will launch The bot in your Desktop Telegram [MicronautBot](t.me/smy5152_bot)
+- Search for `MicronautBot` & select the Bot with a Picture of the Sun Shinig Bright ![screenshot](./images/search-bot-name.PNG)
+
+### USAGE - INSTRUCTIONS or COMMANDS
+
+- [A] /help : List of Available Commands
+- [A] /joke : Gets a random programmer interpretable funny streak to make you smile (I hope...)
+- ![screenshot](./images/joke-requested.PNG)
+- [A] /end : It stop the bot and says "Bye!".
+- ![screenshot](./images/available-commands.PNG)
+
 ## IMPLEMENTATION OF A TELEGRAM BOT in RUBY
 
 ### BUILT WITH
@@ -14,9 +29,9 @@ I have delayed building a BOT for fun from a while and finally got around gettin
 - [Gems](https://www.ruby-lang.org/en/)
   - [Nokogiri](https://nokogiri.org/)
   - [Rspec](https://rspec.info/)
-  - [RUbocop]
-  - [Dotenv]
-- [VisualStudioCode]
+  - Rubocop
+  - Dotenv
+- VisualStudioCode
 
 ## Getting started
 
@@ -40,46 +55,24 @@ I have delayed building a BOT for fun from a while and finally got around gettin
 - Download the [Telegram app](https://desktop.telegram.org/), create an account.
 - Launch [Botfather](https://t.me/botfather). Follow the instructions to create a bot.
 - You will then receive an API Token that looks like this: `NUMBER:key`
-- Link the token to your bot by creating the .env file in your root directory and then add to token in the variable 
-`TELEGRAM_TOKEN = NUMBER:key`
+- Link the token to your bot by creating the .env file in your root directory and then add to token in the variable
+  `TELEGRAM_TOKEN = NUMBER:key`
+
+  |                                                |                                                      |                                                              |
+  | :--------------------------------------------: | :--------------------------------------------------: | :----------------------------------------------------------: |
+  | ![screenshot](./images/bot-config-options.PNG) | ![screenshot](./images/BotFather-Success-Config.PNG) | ![screenshot](./images/BotFather-customize-bot-settings.PNG) |
 
 ### 4- Run the bot
 
 - Type below commands to launch the bot
   - Start a new Terminal [CMD from Run/Search on Windows]
   - Clone/Download .zip repo to an easily accesible location by terminal
-  - Go to the directory: cd [micronaut-bot]
-  - Type: $user-1@[...] [.\bot.rb]
+  - Go to the directory: cd [Micronaut-bot]
+  - Type: $user-1@[...] [.\main.rb]
   - Hit Enter/Return and you are live...
   - Continue the below steps to add and USE the telegram bot service
-- `.\bot.rb` - the entry point file is a command line executable
-- Alternatively: Run `ruby bot.rb` to start the bot.
-
-## How to use the bot
-
-### COMMANDS
-
-- [A] /help : List of Available Commands
-- [A] /joke : Gets a random programmer interpretable funny streak to make you smile (I hope...)
-- [A] /end  : It stop the bot and says "Bye!".
-![screenshot](./images/available-commands.PNG)
-
-## The Telegram-bot live link
-
-[MicronautBot](t.me/smy5152_bot)
-![screenshot](./images/Search-Results-Choose.PNG)
-
-## DESCRIPTION & HOW TO START THE BOT
-
-
-# USAGE - Instructions
-
-### Search on Telegram for the below name or click
-
-
-
-# INTERACTION - Commands
-
+- `.\main.rb` - the entry point file is a command line executable
+- Alternatively: Run `ruby main.rb` to start the bot.
 
 ## Learning Goals:
 
@@ -88,7 +81,6 @@ I have delayed building a BOT for fun from a while and finally got around gettin
 - Ability to work independently and ask for help after due self research when needed.
 - Version Control, Git Flow, RSpec Tests
 - Application of RUBY Syntax & Programming elements.
-
 
 ## Authors
 
@@ -104,11 +96,12 @@ Give a ⭐️ if you like this project!
 
 ### Acknowledgements
 
-- Microverse
+- [Microverse]()
+- [JOKES-API](https://readme-jokes.vercel.app/api)
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/smy5152/micronaut-bot.
+Bug reports and pull requests are welcome on GitHub at https://github.com/smy5152/Micronaut-bot.
 
 ## License
 
