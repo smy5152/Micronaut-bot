@@ -6,6 +6,7 @@ bot_test.rb
 # Folders #
 ###################
 /node_modules/*
+/.bundle/
 
 # Compiled source #
 ###################

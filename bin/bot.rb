@@ -7,6 +7,8 @@ commands = Messages.new
 Telegram::Bot::Client.run(ENV['TELEGRAM_TOKEN']) do |bot|
   bot.listen do |message|
     case message.text
+    # when '/headlines'
+    #   bot.api.send_message(chat_id: message.chat.id, text: commands.get_headlines)
     when '/joke'
       bot.api.send_message(chat_id: message.chat.id, text: commands.get_joke)
     when '/end'

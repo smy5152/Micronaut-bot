@@ -1,21 +1,25 @@
 # spec/messages_spec.rb
+require 'rspec'
 require_relative '../bin/messages'
 
 describe Messages do
-  context 'Messages.new Object creates Default Parameters' do
-    let(:test_commands) { Messages.new }
-    s = "\nQ. Why couldn't the developer pull the weeds from the garden?\nA. They didn't have root access."
+  # let(:test_commands) { Messages.new }
+  context 'Object creates Default Parameters' do
+    describe '#get_joke' do
+      s = "\nQ. Why couldn't the developer pull the weeds from the garden?\nA. They didn't have root access."
+      it 'joke should parse to a String and sent to the BOT to display' do
+        expect(Messages.get_joke.class).to eq(s.class)
+      end
 
-    it 'joke should parse to a String and sent to the BOT to display' do
-      expect(test_commands.get_joke.class).to eq(s.class)
+      it 'joke should not parse to an Integer' do
+        expect(Messages.get_joke.class).not_to eq(Integer)
+      end
     end
 
-    it 'joke should not parse to an Integer' do
-      expect(test_commands.get_joke.class).not_to eq(Integer)
-    end
-
-    it 'help variable is not NULL' do
-      expect(test_commands.help).not_to eq(nil)
+    describe '#helper' do
+      it 'help_command variable is not NULL' do
+        expect(Messages.helper).not_to eq(nil)
+      end
     end
   end
 end

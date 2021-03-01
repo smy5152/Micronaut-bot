@@ -1,3 +1,4 @@
-require 'rspec'
-require './bin/Messages'
-require './bin/Bot'
+#!/usr/bin/env ruby
+
+require_relative './bin/Messages'
+require_relative './bin/Bot'
