@@ -99,7 +99,7 @@ Give a ⭐️ if you like this project!
 
 ### Acknowledgements
 
-- [Microverse]()
+- [Microverse](http://bit.ly/fullstackdev-free)
 - [JOKES-API](https://readme-jokes.vercel.app/api)
 
 ## Contributing
