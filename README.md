@@ -77,6 +77,10 @@ I have delayed building a BOT for fun from a while and finally got around gettin
 - `.\main.rb` - the entry point file is a command line executable
 - Alternatively: Run `ruby main.rb` to start the bot.
 
+### 5- RSPEC Tests
+
+- ![screenshot](./images/rspec-0.1.PNG)
+
 ## Learning Goals:
 
 - Independent learning, focus on end-results and motivating self.
