@@ -2,7 +2,7 @@
 
 # Project Name: Micronaut Bot
 
-![screenshot](logo.PNG)
+![screenshot](logo.jpg)
 
 # Introduction
 
@@ -13,16 +13,15 @@ I have delayed building a BOT for fun from a while and finally got around gettin
 ### The Telegram-bot live link
 
 - Click the link and it will launch The bot in your Desktop Telegram [MicronautBot](t.me/smy5152_bot)
-- Search for `MicronautBot` & select the Bot with a Picture of the Sun Shinig Bright ![screenshot](./images/search-bot-name.PNG)
+- Search for `MicronautBot` & select the Bot with a Picture of the Sun Shining Bright ![screenshot](./images/search-bot-name.PNG)
 
 ### USAGE - INSTRUCTIONS or COMMANDS
 
-![screenshot](./images/available-commands.PNG)
-
-- [A] /help : List of Available Commands
-- [A] /joke : Gets a random programmer interpretable funny streak to make you smile (I hope...)
+- /help : List of Available Commands
+- ![screenshot](./images/welcome-message-default.PNG)
+- /joke : Gets a random programmer interpretable funny streak to make you smile (I hope...)
 - ![screenshot](./images/joke-requested.PNG)
-- [A] /end : It stops the bot and says "Bye!".
+- /end : It stops the bot and says "Bye!".
 
 ## IMPLEMENTATION OF A TELEGRAM BOT in RUBY
 
@@ -32,6 +31,7 @@ I have delayed building a BOT for fun from a while and finally got around gettin
 - [Gems](https://www.ruby-lang.org/en/)
   - [Nokogiri](https://nokogiri.org/)
   - [Rspec](https://rspec.info/)
+  - Open-URI
   - Rubocop
   - Dotenv
 - VisualStudioCode
@@ -47,7 +47,7 @@ I have delayed building a BOT for fun from a while and finally got around gettin
 ### 1- Clone the repo in your local folder where you want to run it
 
 - Run the command below in your terminal
-  `git clone https://github.com/smy5152/Micronaut-bot.git`
+- `git clone https://github.com/smy5152/Micronaut-bot.git`
 
 ### 2- Install bundle
 
@@ -61,17 +61,17 @@ I have delayed building a BOT for fun from a while and finally got around gettin
 - Link the token to your bot by creating the .env file in your root directory and then add to token in the variable
   `TELEGRAM_TOKEN = NUMBER:key`
 
-  |                                                |                                                      |                                                              |
-  | :--------------------------------------------: | :--------------------------------------------------: | :----------------------------------------------------------: |
-  | ![screenshot](./images/bot-config-options.PNG) | ![screenshot](./images/BotFather-Success-Config.PNG) | ![screenshot](./images/BotFather-customize-bot-settings.PNG) |
+  |                                                      |                                                |
+  | :--------------------------------------------------: | :--------------------------------------------: |
+  | ![screenshot](./images/BotFather-Success-Config.PNG) | ![screenshot](./images/bot-config-options.PNG) |
 
 ### 4- Run the bot
 
 - Type below commands to launch the bot
   - Start a new Terminal [CMD from Run/Search on Windows]
   - Clone/Download .zip repo to an easily accesible location by terminal
-  - Go to the directory: cd [Micronaut-bot]
-  - $user-1@[...] [.\main.rb]
+  - Go to the directory: `cd Micronaut-bot`
+  - $user-1@[...] `.\main.rb`
   - Hit Enter/Return and your BOT is live...
   - Continue the below steps to add and USE the telegram bot service
 - `.\main.rb` - the entry point file is a command line executable
@@ -79,10 +79,10 @@ I have delayed building a BOT for fun from a while and finally got around gettin
 
 ## Learning Goals:
 
-- Collaborative learning, being patient, helping each other succeed.
-- Self Monitoring & reliable project deliverables on due time, being focused, accountable.
-- Ability to work independently and ask for help after due self research when needed.
-- Version Control, Git Flow, RSpec Tests
+- Independent learning, focus on end-results and motivating self.
+- Progressive Monitoring & reliable project deliverables on due time, being focused, accountable.
+- Ability to work independently and ask for help after due self research if needed.
+- Version Control, Git Flow, RSpec Tests, Parse URL Feed, BOT Template Implementation
 - Application of RUBY Syntax & Programming elements.
 
 ## Authors
