@@ -4,7 +4,16 @@
 
 ## IMPLEMENTATION OF A TELEGRAM BOT in RUBY
 
-### INTRODUCTION
+### BUILT WITH
+
+- [Ruby](https://www.ruby-lang.org/en/)
+- [Gems](https://www.ruby-lang.org/en/)
+  - [Nokogiri](https://nokogiri.org/)
+  - [Rspec](https://rspec.info/)
+
+# INTRODUCTION
+
+I have delayed building a BOT for fun from a while and finally got around getting this one done in a few hours of overnight coding. The commands are few, extendable to full functionality. I hope to add more contributors and further set of features once its live and available to access from an external server. ( I doubt I can leave my laptop running 24/7 lol :) )
 
 ### RSPEC
 
@@ -21,9 +30,10 @@
   - Type: $user-1@[...] [.\bot.rb]
   - Hit Enter/Return and you are live...
   - Continue the below steps to add and USE the telegram bot service
-- bot.rb - the entry point file is a command line executable
+- `.\bot.rb` - the entry point file is a command line executable
 
 # USAGE - Instructions
+
 
 ### Search on Telegram for the below name or click
 
@@ -31,8 +41,8 @@
 ![screenshot](./images/Search-Results-Choose.PNG)
 
 # INTERACTION - Commands
-![screenshot](./images/available-commands.PNG)
 
+![screenshot](./images/available-commands.PNG)
 
 ### COMMANDS
 
