@@ -2,7 +2,9 @@
 
 # Project Name: Micronaut Bot
 
-# INTRODUCTION
+![screenshot](logo.PNG)
+
+# Introduction
 
 I have delayed building a BOT for fun from a while and finally got around getting this one done in a few hours of overnight coding. The commands are few, extendable to full functionality. I hope to add more contributors and further set of features once its live and available to access from an external server. ( I doubt I can leave my laptop running 24/7 lol :) )
 
@@ -15,11 +17,12 @@ I have delayed building a BOT for fun from a while and finally got around gettin
 
 ### USAGE - INSTRUCTIONS or COMMANDS
 
+![screenshot](./images/available-commands.PNG)
+
 - [A] /help : List of Available Commands
 - [A] /joke : Gets a random programmer interpretable funny streak to make you smile (I hope...)
 - ![screenshot](./images/joke-requested.PNG)
-- [A] /end : It stop the bot and says "Bye!".
-- ![screenshot](./images/available-commands.PNG)
+- [A] /end : It stops the bot and says "Bye!".
 
 ## IMPLEMENTATION OF A TELEGRAM BOT in RUBY
 
@@ -68,8 +71,8 @@ I have delayed building a BOT for fun from a while and finally got around gettin
   - Start a new Terminal [CMD from Run/Search on Windows]
   - Clone/Download .zip repo to an easily accesible location by terminal
   - Go to the directory: cd [Micronaut-bot]
-  - Type: $user-1@[...] [.\main.rb]
-  - Hit Enter/Return and you are live...
+  - $user-1@[...] [.\main.rb]
+  - Hit Enter/Return and your BOT is live...
   - Continue the below steps to add and USE the telegram bot service
 - `.\main.rb` - the entry point file is a command line executable
 - Alternatively: Run `ruby main.rb` to start the bot.
