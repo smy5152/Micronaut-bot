@@ -12,7 +12,7 @@ I have delayed building a BOT for fun from a while and finally got around gettin
 
 ### The Telegram-bot live link
 
-- Click the link and it will launch The bot in your Desktop Telegram [MicronautBot](t.me/smy5152_bot)
+- Click the link and it will launch The bot in your Desktop Telegram [MicronautBot](http://t.me/smy5152_bot)
 - Search for `MicronautBot` & select the Bot with a Picture of the Sun Shining Bright ![screenshot](./images/search-bot-name.PNG)
 
 ### USAGE - INSTRUCTIONS or COMMANDS
@@ -21,6 +21,8 @@ I have delayed building a BOT for fun from a while and finally got around gettin
 - ![screenshot](./images/welcome-message-default.PNG)
 - /joke : Gets a random programmer interpretable funny streak to make you smile (I hope...)
 - ![screenshot](./images/joke-requested.PNG)
+- /yomomma : Gets a random YO MOMMA!... (joke not the momma...) to make you smile.
+- ![screenshot](./images/joke-requested-2.PNG)
 - /end : It stops the bot and says "Bye!".
 
 ## IMPLEMENTATION OF A TELEGRAM BOT in RUBY
@@ -71,14 +73,16 @@ I have delayed building a BOT for fun from a while and finally got around gettin
   - Start a new Terminal [CMD from Run/Search on Windows]
   - Clone/Download .zip repo to an easily accesible location by terminal
   - Go to the directory: `cd Micronaut-bot`
-  - $user-1@[...] `.\main.rb`
+  - $user-1@[..\bin>] `.\main.rb`
   - Hit Enter/Return and your BOT is live...
   - Continue the below steps to add and USE the telegram bot service
-- `.\main.rb` - the entry point file is a command line executable
+- `cd bin` `.\main.rb` - the entry point file is a command line executable
 - Alternatively: Run `ruby main.rb` to start the bot.
 
 ### 5- RSPEC Tests
-
+- #### STEPS TO RUN RSPEC FILE
+- `cd spec`
+- `rspec ./messages_spec.rb`
 - ![screenshot](./images/rspec-0.1.PNG)
 
 ## Learning Goals:
@@ -105,6 +109,7 @@ Give a ⭐️ if you like this project!
 
 - [Microverse](http://bit.ly/fullstackdev-free)
 - [JOKES-API](https://readme-jokes.vercel.app/api)
+- [YO MOMMA](http://api.yomomma.info/)
 
 ## Contributing
 
