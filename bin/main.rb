@@ -1,5 +1,5 @@
-require_relative '../lib/Messages'
-require_relative '../lib/Bot'
+require_relative '../lib/messages'
+require_relative '../lib/bot'
 
 module MicronautBot
   (1..3).each do

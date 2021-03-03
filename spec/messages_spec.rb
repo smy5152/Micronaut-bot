@@ -1,7 +1,7 @@
 # spec/messages_spec.rb
-require_relative '../lib/Messages'
+require_relative '../lib/messages'
 module MicronautBot
-  describe 'Messages' do
+  RSpec.describe Messages do
     let(:test_commands) { Messages.new }
     context 'Object creates Default Parameters' do
       describe '#tech_joke' do

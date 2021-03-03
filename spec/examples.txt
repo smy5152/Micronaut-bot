@@ -1,0 +1,9 @@
+example_id                       | status | run_time        |
+-------------------------------- | ------ | --------------- |
+./spec/messages_spec.rb[1:1:1:1] | passed | 0.4673 seconds  |
+./spec/messages_spec.rb[1:1:1:2] | passed | 0.70272 seconds |
+./spec/messages_spec.rb[1:1:2:1] | passed | 1.5 seconds     |
+./spec/messages_spec.rb[1:1:2:2] | passed | 0.95554 seconds |
+./spec/messages_spec.rb[1:1:3:1] | passed | 0.00068 seconds |
+./spec/messages_spec.rb[1:1:3:2] | passed | 0.00138 seconds |
+./spec/messages_spec.rb[1:1:3:3] | passed | 0.00446 seconds |
