@@ -73,12 +73,9 @@ I have delayed building a BOT for fun for a while and finally got around getting
   - Start a new Terminal [CMD from Run/Search on Windows]
   - Clone/Download .zip repo to an easily accessible location by terminal
   - Go to the directory: `cd Micronaut-bot`
-  - Go to the directory: `cd bin`, `main.rb` is located here.
-  - $user-1@[..\bin>] Run `ruby  .\main.rb` to start the bot.
-  - Hit Enter/Return and your BOT is live...
-  - Continue the below steps to add and USE the telegram bot service
+  - Go to the directory: `cd bin`
+  - $user-1@[..\bin>] Run `ruby main.rb` to start the bot.
 - The 'BOT is RUNNING' message is displayed on the terminal.
-
 ### 5- RSPEC Tests
 - #### STEPS TO RUN RSPEC FILE
 - `cd spec`
