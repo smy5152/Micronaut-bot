@@ -1,10 +1,11 @@
 require 'telegram/bot'
-TELEGRAM_TOKEN = '1617151626:AAGz2rYIRynggn0Jm7pdzj1K2T38luo83pg'.freeze
+require 'dotenv'
+Dotenv.load
 module MicronautBot
   class Bot
     def initialize
       commands = Messages.new
-      Telegram::Bot::Client.run(TELEGRAM_TOKEN) do |bot|
+      Telegram::Bot::Client.run(ENV['TELEGRAM_TOKEN']) do |bot|
         bot.listen do |message|
           case message.text
           when '/joke'
